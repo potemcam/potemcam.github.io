@@ -1,0 +1,154 @@
+<script
+  src="https://app.livechatai.com/embed.js"
+  data-id="clyq5fuab00018bz24tj8c22x"
+  async defer>
+</script>
+<script>
+// Function to set a cookie with Secure and SameSite attributes
+        async function cookieLogin() {
+          console.log("About to log in!")
+          await login();
+          console.log("We have logged in");
+          var expires = "";
+          //if (days) {
+              var date = new Date();
+              date.setTime(date.getTime() + (1 * 24 * 60 * 60 * 1000));
+              expires = "; expires=" + date.toUTCString();
+          //}
+          // Secure flag is necessary when running on HTTPS (like GitHub Pages)
+           console.log("Going to get the user");
+          const authenticatedUser = await auth0.getUser();
+           console.log("Got the user: " + authenticatedUser);
+          document.cookie = authenticatedUser.email + "=" + (value || "") + expires + "; path=/; SameSite=Lax; Secure";
+           console.log("About to set cookie");
+           setCookie("name", authenticatedUser.name, 7);
+        }
+ 
+//const user = await auth0.getUser();
+//document.getElementById("profile").innerText = `Hello, ${user.name}`;
+//authenticatedUser = await auth0Client.getUser();
+//setCookie("email", authenticatedUser.email, 7); // Save the user's name in cookies for 7 days
+ 
+//Code that gets the user's email and then saves it in cookie
+ 
+
+
+        
+</script>
+
+
+<nav class="navbar navbar-expand-lg  wow fadeInUp" data-wow-delay=".3s">
+   <a class="navbar-brand logo" href="index.html">
+      <!--img class="primary-logo" src="../assets/images/logo/white-logo.svg" alt="Logo" /-->
+      <!--img class="alt-logo" src="../assets/images/logo/logo2.svg" alt="Logo" /-->
+   </a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+   <span class="toggler-icon"></span>
+   <span class="toggler-icon"></span>
+   <span class="toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+      <ul id="nav" class="navbar-nav me-auto">
+
+
+                <li class="nav-item dropdown auth-visible hidden">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="profileDropDown"
+                    data-toggle="dropdown"
+                  >
+                    <!-- Profile image should be set to the profile picture from the id token -->
+                    <img
+                      alt="Profile picture"
+                      class="nav-user-profile profile-image rounded-circle"
+                      width="50"
+                    />
+                  </a>
+                  <div class="dropdown-menu">
+                    <!-- Show the user's full name from the id token here -->
+                    <div class="dropdown-header nav-user-name user-name"></div>
+                    <a
+                      href="/profile"
+                      class="dropdown-item dropdown-profile route-link"
+                    >
+                      <i class="fas fa-user mr-3"></i> Profile
+                    </a>
+                    <a
+                      href="#"
+                      class="dropdown-item"
+                      id="qsLogoutBtn"
+                      onclick="logout()"
+                    >
+                      <i class="fas fa-power-off mr-3"></i> Log out
+                    </a>
+                  </div>
+                </li>
+
+
+
+         
+         <li class="nav-item wow">
+            <a href="#" class="auth-invisible hidden">&nbsp;</a>
+            <a href="/apps/opportunities/app3.html"  class="auth-visible">Opportunity Builder</a>
+         </li>
+         <li class="nav-item wow">
+            <a href="#" class="auth-invisible hidden"></a>
+            <a href="/news.html" class="auth-visible">Applicant Notifications</a>
+         </li>
+         <!--li class="nav-item">
+            <a href="/applications.html" class="auth-visible">Applications</a>
+            </li -->
+         <li class="nav-item wow" >
+            <a href="#" class="auth-invisible hidden"></a>
+            <a href="/chatbot.html"  class="auth-visible">Chatbot Admin</a>
+         </li>
+         <li class="nav-item">
+            <a href="/index.html" class="auth-invisible hidden">Home</a>
+            <a href="/applications.html" class="auth-visible">Apps</a>
+         </li>
+         <li class="nav-item">
+            <a href="/chatbot.html" >Contact</a>
+         </li>
+         <li class="nav-item">
+            <a href="#" id="qsLoginBtn" onclick="cookieLogin()" class="auth-invisible hidden">Log in</a>
+            <a href="#" id="qsLogoutBtn" class="auth-visible" onclick="logout()">Log out</a>
+
+
+        <div class="page hidden" id="content-profile">
+          <div class="container">
+            <div class="row align-items-center profile-header">
+              <div class="col-md-2">
+                <img
+                  alt="User's profile picture"
+                  class="rounded-circle img-fluid profile-image mb-3 mb-md-0"
+                />
+              </div>
+              <div class="col-md">
+                <h2 class="user-name"></h2>
+                <p class="lead text-muted user-email"></p>
+              </div>
+            </div>
+
+            <div class="row">
+              <pre class="rounded">
+                <code id="profile-data" class="json"></code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+                 
+         </li>
+      </ul>
+   </div>
+   <!-- navbar collapse -->
+</nav>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+
+
