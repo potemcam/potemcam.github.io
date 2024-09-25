@@ -3,40 +3,100 @@ companyname: "Align Chatbot Training"
 layout: "minimal"
 ---
 
-<p>AI Bot Training Interface</p>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+        .form-section {
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            max-width: 600px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"], input[type="file"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+        button {
+            background-color: #009688;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #00796b;
+        }
+        .response {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 6px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+        }
+    </style>
+    <title>AI Bot Training Interface</title>
+
+
+<p style="font-size: 24px; text-align: center;">AI Bot Training Interface</p>
 
 <!-- Upload Website URL Section -->
 <div class="form-section" id="url-section">
-<p>Upload Website URL<p>
-<form id="url-form">
-<label for="website-url">Website URL:</label>
-<input type="text" id="website-url" name="website-url"  required/>
-<button type="submit">Submit URL</button>
-</form>
-<div class="response" id="url-response"></div><!-- /div -->
+    <p>Upload Website URL</p>
+    <form id="url-form">
+        <label for="website-url">Website URL:</label>
+        <input type="text" id="website-url" name="website-url" required />
+        <button type="submit">Submit URL</button>
+    </form>
+    <div class="response" id="url-response"></div>
+</div>
 
 <!-- Submit Text Section -->
 <div class="form-section" id="text-section">
-<p>Submit Text<p>
-<form id="text-form">
-<label for="text-input">Text Content:</label>
-<textarea id="text-input" name="text-input" rows="5" placeholder="Enter your text here..." required></textarea>
-<label for="text-title">Title:</label>
-<input type="text" id="text-title" name="text-title" placeholder="Title for the text content" required/>
-<button type="submit">Submit Text</button>
-</form>
-<div class="response" id="text-response"></div><!-- /div -->
+    <p>Submit Text</p>
+    <form id="text-form">
+        <label for="text-input">Text Content:</label>
+        <textarea id="text-input" name="text-input" rows="5" placeholder="Enter your text here..." required></textarea>
+        <label for="text-title">Title:</label>
+        <input type="text" id="text-title" name="text-title" placeholder="Title for the text content" required />
+        <button type="submit">Submit Text</button>
+    </form>
+    <div class="response" id="text-response"></div>
+</div>
+
 <!-- Upload PDF Section -->
 <div class="form-section" id="pdf-section">
-<p>Upload PDF File</p>
-<form id="pdf-form">
-<label for="pdf-file">Select PDF:</label>
-<input type="file" id="pdf-file" name="pdf-file" accept="application/pdf" required/>
-<label for="pdf-title">Title:</label>
-<input type="text" id="pdf-title" name="pdf-title" placeholder="Title for the PDF content" required/>
-<button type="submit">Upload PDF</button>
-</form>
-<div class="response" id="pdf-response"></div></div>
+    <p>Upload PDF File</p>
+    <form id="pdf-form">
+        <label for="pdf-file">Select PDF:</label>
+        <input type="file" id="pdf-file" name="pdf-file" accept="application/pdf" required />
+        <label for="pdf-title">Title:</label>
+        <input type="text" id="pdf-title" name="pdf-title" placeholder="Title for the PDF content" required />
+        <button type="submit">Upload PDF</button>
+    </form>
+    <div class="response" id="pdf-response"></div>
+</div>
 
 <script>
     const chatbotId = "clyq5fuab00018bz24tj8c22x";
