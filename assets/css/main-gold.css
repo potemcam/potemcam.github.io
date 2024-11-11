@@ -1015,15 +1015,15 @@ ol {
 }
 
 .section-title.style2 span {
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .section-title.style3 span {
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .section-title.style4 span {
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .section-title h2 {
@@ -1164,19 +1164,19 @@ ol {
 }
 
 .section-title.style2 span {
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .section-title.style3 span {
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .section-title.style4 span {
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .section-title.style5 span {
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .scroll-top:hover {
@@ -1307,15 +1307,15 @@ ol {
 }
 
 .button.style2 .btn {
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .button.style3 .btn {
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .button.style4 .btn {
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .align-left {
@@ -1369,15 +1369,15 @@ ol {
 }
 
 .preloader.style2 .preloader-icon span {
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .preloader.style3 .preloader-icon span {
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .preloader.style4 .preloader-icon span {
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .preloader-icon span:last-child {
@@ -1759,7 +1759,7 @@ ol {
 }
 
 .header.style2 .sticky .navbar .navbar-nav .nav-item a:hover {
-  color: #018bff;
+  color: #F8921D;
 }
 
 .header.style3 .sticky .navbar .navbar-nav .nav-item a {
@@ -1767,7 +1767,7 @@ ol {
 }
 
 .header.style3 .sticky .navbar .navbar-nav .nav-item a:hover {
-  color: #4567f4;
+  color: #F8921D;
 }
 
 .header.style4 .sticky .navbar .navbar-nav .nav-item a {
@@ -2200,7 +2200,7 @@ ol {
 
 .header.style2 .navbar-area.sticky .button .btn {
   border-color: transparent;
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   border-color: #fff;
   padding: 15px 10px;
   border-radius: 6px;
@@ -2216,7 +2216,7 @@ ol {
 
 .header.style3 .navbar-area.sticky .button .btn {
   border-color: transparent;
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   border-color: #fff;
   padding: 15px 10px;
   border-radius: 6px;
@@ -2232,7 +2232,7 @@ ol {
 
 .header.style4 .navbar-area.sticky .button .btn {
   border-color: transparent;
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   border-color: #fff;
   padding: 15px 10px;
   border-radius: 6px;
@@ -2253,12 +2253,12 @@ ol {
 
 .header.style2 .sticky .navbar .navbar-nav .nav-item a.active,
 .header.style2 .sticky .navbar .navbar-nav .nav-item a:hover {
-  color: #018bff !important;
+  color: #F8921D !important;
 }
 
 .header.style3 .sticky .navbar .navbar-nav .nav-item a.active,
 .header.style3 .sticky .navbar .navbar-nav .nav-item a:hover {
-  color: #4567f4 !important;
+  color: #F8921D !important;
 }
 
 .header.style4 .sticky .navbar .navbar-nav .nav-item a.active,
@@ -2279,7 +2279,7 @@ ol {
 
 .hero-area.style2 {
   position: relative;
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .hero-area.style2 .hero-image {
@@ -2311,7 +2311,7 @@ ol {
 
 .hero-area.style3 {
   position: relative;
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   z-index: 2;
 }
 
@@ -2355,7 +2355,7 @@ ol {
 
 .hero-area.style4 {
   position: relative;
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   z-index: 2;
 }
 
@@ -2664,20 +2664,20 @@ ol {
 }
 
 .features.style2 .tab-head .nav-pills .nav-link:hover {
-  color: #018bff;
+  color: #F8921D;
 }
 
 .features.style2 .tab-head .nav-pills .nav-link i {
   display: inline-block;
   margin-right: 10px;
   font-size: 14px;
-  color: #018bff;
+  color: #F8921D;
 }
 
 .features.style2 .tab-head .nav-pills .nav-link.active,
 .features.style2 .tab-head .nav-pills .show > .nav-link {
   color: #fff;
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .features.style2 .tab-head .nav-pills .nav-link.active i,
@@ -2735,14 +2735,14 @@ ol {
   text-align: center;
   display: block;
   border-radius: 10px;
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   color: #fff;
   font-size: 20px;
 }
 
 .features.style2 .tab-head .tab-content-inner .tab-text ul li span {
   font-size: 17px;
-  color: #018bff;
+  color: #F8921D;
   font-weight: 600;
   display: block;
   margin-bottom: 10px;
@@ -2830,11 +2830,11 @@ ol {
 .work-process.style4 .single-process .main-icon i {
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(45deg, #DCE35B, #45B649) !important;
+  background-image: linear-gradient(45deg, #F8921D, #B3DFC9) !important;
 }
 
 .work-process.style4 .single-process span {
-  background: linear-gradient(45deg, #DCE35B, #45B649) !important;
+  background: linear-gradient(45deg, #F8921D, #B3DFC9) !important;
 }
 
 .work-process .single-process {
@@ -2862,7 +2862,7 @@ ol {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  background-image: linear-gradient(45deg, #018bff, #243ec4);
+  background-image: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .work-process .single-process .icon span {
@@ -2870,7 +2870,7 @@ ol {
   height: 35px;
   width: 35px;
   line-height: 35px;
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   border-radius: 50%;
   position: absolute;
   right: 0;
@@ -2915,7 +2915,7 @@ ol {
   bottom: 0;
   height: 4px;
   width: 0%;
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -2933,7 +2933,7 @@ ol {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  background-image: linear-gradient(45deg, #DCE35B, #45B649);
+  background-image: linear-gradient(45deg, #F8921D, #B3DFC9);
   font-size: 30px;
   position: absolute;
   left: 40px;
@@ -3060,7 +3060,7 @@ ol {
   line-height: 70px;
   text-align: center;
   display: block;
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   color: #fff;
   border-radius: 10px;
   font-size: 30px;
@@ -3100,7 +3100,7 @@ ol {
   line-height: 70px;
   text-align: center;
   display: block;
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   color: #fff;
   border-radius: 10px;
   font-size: 30px;
@@ -3135,7 +3135,7 @@ ol {
     App Download CSS
 ========================================*/
 .app-download.style2 {
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   z-index: 2;
 }
 
@@ -3177,7 +3177,7 @@ ol {
 .app-download.style2 .download-content .button .btn {
   margin-right: 20px;
   background: #fff;
-  color: #018bff;
+  color: #F8921D;
 }
 
 .app-download.style2 .download-content .button .btn:hover {
@@ -3196,7 +3196,7 @@ ol {
 }
 
 .app-download.style2 .download-content .button .btn.primary:hover {
-  color: #018bff;
+  color: #F8921D;
 }
 
 .app-download.style2 .download-content .button .btn:last-child {
@@ -3263,12 +3263,12 @@ ol {
     Call To Action CSS
 ========================================*/
 .call-action {
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   z-index: 2;
 }
 
 .call-action.style4 {
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .call-action:before {
@@ -3389,23 +3389,23 @@ ol {
 }
 
 .our-achievement.style2 {
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .our-achievement.style2 .single-achievement i {
-  color: #018bff;
+  color: #F8921D;
 }
 
 .our-achievement.style3 {
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .our-achievement.style3 .single-achievement i {
-  color: #4567f4;
+  color: #F8921D;
 }
 
 .our-achievement.style4 {
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .our-achievement.style4 .single-achievement i {
@@ -3483,7 +3483,7 @@ ol {
 }
 
 .why-choose .single-choose:hover h3 {
-  color: #4567f4;
+  color: #F8921D;
 }
 
 .why-choose .single-choose .icon {
@@ -3506,7 +3506,7 @@ ol {
   content: '';
   width: 100%;
   position: absolute;
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   border-radius: 50px 50px 50px 0;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
@@ -3575,13 +3575,13 @@ ol {
 }
 
 .portfolio-section .portfolio-btn-wrapper button:hover {
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   border-color: transparent;
   color: #fff;
 }
 
 .portfolio-section .portfolio-btn-wrapper button.active {
-  background: linear-gradient(45deg, #DCE35B, #45B649) !important;
+  background: linear-gradient(45deg, #F8921D, #B3DFC9) !important;
   color: #fff;
   border-color: transparent;
 }
@@ -3646,7 +3646,7 @@ ol {
   content: "";
   left: 0;
   top: 0;
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   height: 100%;
   width: 100%;
   z-index: 5;
@@ -3702,15 +3702,15 @@ ol {
 }
 
 .team.style2 .single-team .image::before {
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .team.style3 .single-team .image::before {
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .team.style4 .single-team .image::before {
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .team .title-line {
@@ -3862,7 +3862,7 @@ ol {
     Testimonial CSS
 ========================================*/
 .testimonials.style2 .single-testimonial:hover {
-  border-color: #018bff;
+  border-color: #F8921D;
 }
 
 .testimonials.style3 {
@@ -3876,7 +3876,7 @@ ol {
 }
 
 .testimonials.style3 .single-testimonial:hover {
-  border-color: #4567f4;
+  border-color: #F8921D;
 }
 
 .testimonials.style3 .single-testimonial .top-section {
@@ -3925,7 +3925,7 @@ ol {
   height: 10px;
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .testimonials.style4 {
@@ -3988,7 +3988,7 @@ ol {
   height: 10px;
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .testimonials .single-testimonial {
@@ -4047,33 +4047,33 @@ ol {
 }
 
 .pricing-table.style2 .single-table .table-head {
-  border-bottom-color: #018bff;
+  border-bottom-color: #F8921D;
 }
 
 .pricing-table.style2 .single-table .amount {
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .pricing-table.style2 .single-table .button .btn {
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .pricing-table.style3 .single-table .table-head {
-  border-bottom-color: #4567f4;
+  border-bottom-color: #F8921D;
 }
 
 .pricing-table.style3 .single-table .amount {
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .pricing-table.style3 .single-table .button .btn {
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .pricing-table.style4 .single-table .table-head {
@@ -4081,14 +4081,14 @@ ol {
 }
 
 .pricing-table.style4 .single-table .amount {
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .pricing-table.style4 .single-table .button .btn {
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .pricing-table .single-table {
@@ -4187,19 +4187,19 @@ ol {
 }
 
 .intro-video-area.style2 {
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .intro-video-area.style2 .intro-video-play .play-thumb a:hover {
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .intro-video-area.style2 .intro-video-play .play-thumb a {
-  color: #018bff;
+  color: #F8921D;
 }
 
 .intro-video-area.style3 {
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   text-align: center;
 }
 
@@ -4232,11 +4232,11 @@ ol {
 }
 
 .intro-video-area.style3 .intro-video-play .play-thumb a:hover {
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .intro-video-area.style3 .intro-video-play .play-thumb a {
-  color: #4567f4;
+  color: #F8921D;
 }
 
 .intro-video-area.style3 .intro-video-play {
@@ -4246,7 +4246,7 @@ ol {
 }
 
 .intro-video-area.style4 {
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   text-align: center;
   position: relative;
 }
@@ -4274,7 +4274,7 @@ ol {
 }
 
 .intro-video-area.style4 .intro-video-play .play-thumb a:hover {
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .intro-video-area.style4 .intro-video-play .play-thumb a {
@@ -4484,17 +4484,17 @@ ol {
 }
 
 .faq.style2 .accordion-button:not(.collapsed) {
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   color: #fff;
 }
 
 .faq.style3 .accordion-button:not(.collapsed) {
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   color: #fff;
 }
 
 .faq.style4 .accordion-button:not(.collapsed) {
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
   color: #fff;
 }
 
@@ -4570,27 +4570,27 @@ ol {
 }
 
 .newsletter-area.style2::before {
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .newsletter-area.style2 .subscribe-text .button .btn {
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .newsletter-area.style3::before {
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .newsletter-area.style3 .subscribe-text .button .btn {
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .newsletter-area.style4::before {
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .newsletter-area.style4 .subscribe-text .button .btn {
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .newsletter-area:before {
@@ -4711,7 +4711,7 @@ ol {
 }
 
 .clients.style2 h2 span {
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .clients.style3 {
@@ -4776,11 +4776,11 @@ ol {
 }
 
 .footer.style2 {
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .footer.style3 {
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .footer.style3::before {
@@ -4788,7 +4788,7 @@ ol {
 }
 
 .footer.style4 {
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .footer.style4::before {
@@ -5080,19 +5080,19 @@ ol {
   }
   .header.style2 .navbar-area .navbar-nav .nav-item a:hover {
     color: #fff !important;
-    background-color: #018bff;
+    background-color: #F8921D;
   }
   .header.style2 .navbar-area.sticky .navbar-nav .nav-item a:hover {
     color: #fff !important;
-    background-color: #018bff;
+    background-color: #F8921D;
   }
   .header.style3 .navbar-area .navbar-nav .nav-item a:hover {
     color: #fff !important;
-    background-color: #4567f4;
+    background-color: #F8921D;
   }
   .header.style3 .navbar-area.sticky .navbar-nav .nav-item a:hover {
     color: #fff !important;
-    background-color: #4567f4;
+    background-color: #F8921D;
   }
   .header.style4 .navbar-area .navbar-nav .nav-item a:hover {
     color: #fff !important;
@@ -5113,13 +5113,13 @@ ol {
     background: linear-gradient(45deg, #F8921D, #B3DFC9);
   }
   .header.style2 .navbar-area.sticky .navbar-toggler {
-    background: linear-gradient(45deg, #018bff, #243ec4);
+    background: linear-gradient(45deg, #F8921D, #B3DFC9);
   }
   .header.style3 .navbar-area.sticky .navbar-toggler {
-    background: linear-gradient(45deg, #4567f4, #3CD3AD);
+    background: linear-gradient(45deg, #F8921D, #B3DFC9);
   }
   .header.style4 .navbar-area.sticky .navbar-toggler {
-    background: linear-gradient(45deg, #DCE35B, #45B649);
+    background: linear-gradient(45deg, #F8921D, #B3DFC9);
   }
   .navbar-area .navbar-toggler .toggler-icon {
     background-color: #081828;
@@ -5207,13 +5207,13 @@ ol {
   .header.style2 .sticky .navbar .navbar-nav .nav-item a.active,
   .header.style2 .sticky .navbar .navbar-nav .nav-item a:hover {
     color: #fff !important;
-    background: #018bff !important;
+    background: #F8921D !important;
     border-color: transparent !important;
   }
   .header.style3 .sticky .navbar .navbar-nav .nav-item a.active,
   .header.style3 .sticky .navbar .navbar-nav .nav-item a:hover {
     color: #fff !important;
-    background: #4567f4 !important;
+    background: #F8921D !important;
     border-color: transparent !important;
   }
   .header.style4 .sticky .navbar .navbar-nav .nav-item a.active,
@@ -5657,19 +5657,19 @@ ol {
   }
   .header.style2 .navbar-area .navbar-nav .nav-item a:hover {
     color: #fff !important;
-    background-color: #018bff;
+    background-color: #F8921D;
   }
   .header.style2 .navbar-area.sticky .navbar-nav .nav-item a:hover {
     color: #fff !important;
-    background-color: #018bff;
+    background-color: #F8921D;
   }
   .header.style3 .navbar-area .navbar-nav .nav-item a:hover {
     color: #fff !important;
-    background-color: #4567f4;
+    background-color: #F8921D;
   }
   .header.style3 .navbar-area.sticky .navbar-nav .nav-item a:hover {
     color: #fff !important;
-    background-color: #4567f4;
+    background-color: #F8921D;
   }
   .header.style4 .navbar-area .navbar-nav .nav-item a:hover {
     color: #fff !important;
@@ -5690,13 +5690,13 @@ ol {
     background: linear-gradient(45deg, #F8921D, #B3DFC9);
   }
   .header.style2 .navbar-area.sticky .navbar-toggler {
-    background: linear-gradient(45deg, #018bff, #243ec4);
+    background: linear-gradient(45deg, #F8921D, #B3DFC9);
   }
   .header.style3 .navbar-area.sticky .navbar-toggler {
-    background: linear-gradient(45deg, #4567f4, #3CD3AD);
+    background: linear-gradient(45deg, #F8921D, #B3DFC9);
   }
   .header.style4 .navbar-area.sticky .navbar-toggler {
-    background: linear-gradient(45deg, #DCE35B, #45B649);
+    background: linear-gradient(45deg, #F8921D, #B3DFC9);
   }
   .navbar-area .navbar-toggler .toggler-icon {
     background-color: #081828;
@@ -5784,13 +5784,13 @@ ol {
   .header.style2 .sticky .navbar .navbar-nav .nav-item a.active,
   .header.style2 .sticky .navbar .navbar-nav .nav-item a:hover {
     color: #fff !important;
-    background: #018bff !important;
+    background: #F8921D !important;
     border-color: transparent !important;
   }
   .header.style3 .sticky .navbar .navbar-nav .nav-item a.active,
   .header.style3 .sticky .navbar .navbar-nav .nav-item a:hover {
     color: #fff !important;
-    background: #4567f4 !important;
+    background: #F8921D !important;
     border-color: transparent !important;
   }
   .header.style4 .sticky .navbar .navbar-nav .nav-item a.active,
@@ -6274,19 +6274,19 @@ ol {
 }
 
 .contact-us.style2 .single-info ul li a:hover {
-  color: #018bff;
+  color: #F8921D;
 }
 
 .contact-us.style2 .single-info i {
-  background: linear-gradient(45deg, #018bff, #243ec4);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .contact-us.style3 .single-info ul li a:hover {
-  color: #4567f4;
+  color: #F8921D;
 }
 
 .contact-us.style3 .single-info i {
-  background: linear-gradient(45deg, #4567f4, #3CD3AD);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .contact-us.style4 .single-info ul li a:hover {
@@ -6294,7 +6294,7 @@ ol {
 }
 
 .contact-us.style4 .single-info i {
-  background: linear-gradient(45deg, #DCE35B, #45B649);
+  background: linear-gradient(45deg, #F8921D, #B3DFC9);
 }
 
 .contact-us .inner-content {
