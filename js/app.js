@@ -47,6 +47,28 @@ const login = async (targetUrl) => {
   }
 };
 
+
+const register = async (targetUrl) => {
+  try {
+    console.log("Registering", targetUrl);
+
+    const options = {
+      authorizationParams: {
+        screen_hint: 'signup',  // Directs to the registration page
+        redirect_uri: 'https://get.milesahead.today'
+      }
+    };
+
+    if (targetUrl) {
+      options.appState = { targetUrl };
+    }
+
+    await auth0Client.loginWithRedirect(options);
+  } catch (err) {
+    console.log("Registration failed", err);
+  }
+};
+
 /**
  * Executes the logout flow
  */
