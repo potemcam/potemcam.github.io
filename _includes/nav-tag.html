@@ -1,9 +1,3 @@
-<script
-  src="https://app.livechatai.com/embed.js"
-  data-id="clyq5fuab00018bz24tj8c22x"
-  async defer>
-</script>
-
 <nav class="navbar navbar-expand-lg  wow fadeInUp" data-wow-delay=".3s">
    <a class="navbar-brand logo" href="index.html">
       <!--img class="primary-logo" src="../assets/images/logo/white-logo.svg" alt="Logo" /-->
@@ -18,8 +12,6 @@
    </button>
    <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
       <ul id="nav" class="navbar-nav me-auto">
-
-
                 <li class="nav-item dropdown auth-visible hidden">
                   <a
                     class="nav-link"
@@ -54,31 +46,107 @@
                   </div>
                 </li>
 
+	<li class="nav-item">
+
+			
+            <a href="/control-panel.html?id=nav-tag" class="admin-visible">
+			Admin
+			</a>
+			
+         </li>
+
+	      
+{% assign app_pages = site.pages | where_exp: "page", "page.path contains 'apps/'" %}
+{% assign sorted_app_pages = app_pages | sort: "priority" %}
+
+{% for post in sorted_app_pages %}
+<!--comment 1 -->
+  {% if post.top-level-link %}
+  <!--comment 2 -->
+    {% if post.authenticated %}
+	 <!--comment 3 -->
+      <!-- Authenticated version of the LI -->
+      <li class="nav-item wow">
+      <a href="#" class="auth-invisible hidden">&nbsp;</a>
+
+      {% if post.subscription-product %}
+	   <!--comment 4 -->
+        <!-- Display code with subscription-product -->
+        <span class="subs-visible hidden" data-subscription="{{ post.subscription-product }}">
+          <a href="{{ post.url }}" class="auth-visible">{{ post.title }}</a>
+		  <i class="lni lni-user" title="Personal Subscription Required"></i>
+          <!-- Uncomment the next line if the lock icon is needed -->
+          <!-- <span class="material-icons subs-visible hidden" data-subscription="{{ post.subscription-product }}">lock_open</span> -->
+        </span>
+
+        <span class="subs-invisible" data-subscription="{{ post.subscription-product }}">
+          <a  href="/products/{{ post.subscription-product }}" class="auth-visible chatbot-subscription-link">{{ post.title }}</a>
+        </span>
+
+      {% else %}
+        <!-- Display default code without subscription-product -->
+        <a href="{{ post.url }}" class="auth-visible">{{ post.title }}</a>
+      {% endif %}
+      </li>
+    {% else %}
+      <!-- Regular version of the LI -->
+      <li class="nav-item wow">
+        <a href="{{ post.url }}" class="nav-link">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endif %}
+{% endfor %}
 
 
+
+
+<!--
          
          <li class="nav-item wow">
             <a href="#" class="auth-invisible hidden">&nbsp;</a>
-            <a href="/apps/opportunities/app2.html"  class="auth-visible">Opportunity Builder</a>
+            <a href="/apps/opportunities/app3.html"  class="auth-visible">Opportunity Builder</a>
          </li>
          <li class="nav-item wow">
             <a href="#" class="auth-invisible hidden"></a>
-            <a href="/apps/opportunities-notifications/app2.html" class="auth-visible">Email Alerts</a>
+            <a href="/apps/opportunities-notifications/app3.html" class="auth-visible">Email Notifications</a>
          </li>
-         <!--li class="nav-item">
-            <a href="/applications.html" class="auth-visible">Applications</a>
-            </li -->
+
+         <li class="nav-item wow" >
+            
+            <a href="#" class="auth-invisible hidden"></a>
+            <span class="subs-visible hidden" data-subscription="prod_R394grfrwqUp00">
+            
+            <a href="/apps/chatbot-training/app.html"  class="auth-visible">Chatbot training</a>
+            </span>
+
+            <span class="subs-invisible" data-subscription="prod_R394grfrwqUp00">
+               
+            <a id="chatbot-subscription-link" href="https://buy.stripe.com/test_00g8xR7Sm10k0uY8wx"  class="auth-visible">Chatbot training</a>
+            
+            </span>
+
+         </li>
          <li class="nav-item wow" >
             <a href="#" class="auth-invisible hidden"></a>
-            <a href="/chatbot-admin.html"  class="auth-visible">Chatbot Training</a>
+            <a href="/apps/support-ticket-creator/app.html"  class="auth-visible">Service Tickets</a>
          </li>
+		 
+-->		 
+
+<!--	      
          <li class="nav-item">
             <a href="/index.html" class="auth-invisible hidden">Home</a>
             <a href="/applications.html" class="auth-visible">Apps</a>
          </li>
          <li class="nav-item">
-            <a href="/chatbot.html" >Chatbot</a>
+            <a href="/chatbot.html?id=min-tag" >Chatbot</a>
          </li>
+-->	
+
+
+		 
+		 
+    {% assign show_default_icon = false %}
          <li class="nav-item">
             <a href="#" id="qsLoginBtn" onclick="login()" class="auth-invisible hidden">Log in</a>
             <a href="#" id="qsLogoutBtn" class="auth-visible" onclick="logout()">Log out</a>
@@ -106,16 +174,9 @@
           </div>
         </div>
       </div>
-
-
-
-                 
+ 
          </li>
       </ul>
    </div>
    <!-- navbar collapse -->
 </nav>
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
-
-

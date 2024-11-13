@@ -33,46 +33,34 @@
 
 <body class="h-100">
 	<div id="content-home"></div>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
 
     <!-- Preloader -->
-    <div class="preloader" style="opacity: 0; display: none;">
+    <!-- <div class="preloader style2">
         <div class="preloader-inner">
             <div class="preloader-icon">
                 <span></span>
                 <span></span>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- /End Preloader -->
 
     <!-- Start Header Area -->
-    <header class="header">
+    <header class="header style2">
         <div class="navbar-area">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-12">
-                        <nav class="navbar navbar-expand-lg">
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
-                                <ul id="nav" class="navbar-nav me-auto">
-                                    <li class="nav-item">
-                                        <a  href="/index.html">Home</a>
-                                    </li>
-									<li class="nav-item">
-                                        <a href="http://www.twitter.com/scrumtuous" >Twitter</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a href="/2022/01/01/allposts.html" >Blog</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                        <!-- navbar -->
+<!-- navbar -->
+{% include nav-tag.html %} 	
+<!-- navbar -->
                     </div>
                 </div>
                 <!-- row -->
@@ -82,6 +70,7 @@
         <!-- navbar area -->
     </header>
     <!-- End Header Area -->
+
 
     <!-- Start Hero Area -->
     <section id="hero-area" class="hero-area">
@@ -95,6 +84,7 @@
                                 <h3 class="wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">Stay Connected</h3>
                                 <h1 class="wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">Opportunity<br>Applicant<br>Notifications</h1>
                                 <p class="wow fadeInUp" data-wow-delay=".7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">Never miss a match.</p>
+				<p class="wow fadeInUp" data-wow-delay=".7s" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">Connect every client.</p>
 
 
 
@@ -125,17 +115,17 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-title">
-                        <span class="wow fadeInDown" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s;">Get the app</span>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s;">Set It Up Now!</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s;">The app is free to all of our preferred customers. Just log in, validate your email and configure your notification settings.</p>
+                        <span >Get the app</span>
+                        <h2 >Set Notifications Up Now!</h2>
+                        <p  >The app is free to all of our preferred customers. Just log in, validate your email and configure your notification settings.</p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-12">
-                    <div class="single-download wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s;">
+                    <div class="single-download" >
                         <h3 class="counter">Step 1</h3>
-                        <p>Registers and validate your email to get access</p>
+                        <p>Register and validate your email to get access</p>
                         <div class="button">
                             <span  class="btn">
                                 <i class="lni lni-rocket"></i>
@@ -146,7 +136,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-12">
-                    <div class="single-download wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s;">
+                    <div class="single-download" >
                         <h3 class="counter">Step 2</h3>
                         <p>Set up the frequence of notifications you prefer.</p>
                         <div class="button">
@@ -159,7 +149,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-12">
-                    <div class="single-download wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s;">
+                    <div class="single-download">
                         <h3 class="counter">Step 3</h3>
                         <p>Email notifications will get sent to your Inbox.</p>
                         <div class="button">
@@ -180,28 +170,28 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-12">
-                    <div class="single-achievement wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s;">
+                    <div class="single-achievement p">
                         <i class="lni lni-user"></i>
                         <h3 class="counter"><span id="secondo1" class="countup" cup-end="264">264 </span>K+</h3>
                         <p>Users</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
-                    <div class="single-achievement wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s;">
+                    <div class="single-achievement">
                         <i class="lni lni-users"></i>
                         <h3 class="counter"><span id="secondo2" class="countup" cup-end="100">100 </span>K+</h3>
                         <p>Applicants</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
-                    <div class="single-achievement wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s;">
+                    <div class="single-achievement">
                         <i class="lni lni-code"></i>
                         <h3 class="counter"><span id="secondo3" class="countup" cup-end="855">855 </span>K+</h3>
                         <p>Notification Sent</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
-                    <div class="single-achievement wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s;">
+                    <div class="single-achievement">
                         <i class="lni lni-coffee-cup"></i>
                         <h3 class="counter"><span id="secondo3" class="countup" cup-end="295">295 </span>K+</h3>
                         <p>Jobs Filled</p>
@@ -213,14 +203,14 @@
 
 
     <!-- Start Pricing Table Area -->
-    <section class="pricing-table section">
+<section id="pricing_table" class="pricing-table section">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="section-title">
-                        <span class="wow fadeInDown" data-wow-delay=".2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">Pricing Plan</span>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">Choose Your Plan</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">There are many variations of passages of Lorem
+                        <span>Pricing Plan</span>
+                        <h2>Choose Your Plan</h2>
+                        <p>There are many variations of passages of Lorem
                             Ipsum available, but the majority have suffered alteration in some form.</p>
                     </div>
                 </div>
@@ -228,25 +218,26 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-12">
                     <!-- Single Table -->
-                    <div class="single-table wow fadeInUp" data-wow-delay=".2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+                    <div class="single-table pricingTable" data-plan="Gold Level">
                         <!-- Table Head -->
                         <div class="table-head">
                             <div class="price">
-                                <p class="amount">$10<span class="duration">/month</span></p>
+              <h3 class="heading">Gold</h3>
+			   <div class="price">
+                                <p class="amount"><span class="price-value">$149</span></p>
+                            </div>
+              
+              <span class="month">monthly</span>
                             </div>
                             <div class="title">
                                 <h4>Small Pack</h4>
                             </div>
                         </div>
+	   <div class="pricingContent table-list">
+              <ul><li><i class="ti-check"></i> 88 GB Disk Space</li><li><i class="ti-check"></i> 99 Email Accounts</li><li><i class="ti-check"></i> 22 subdomains</li><li><i class="ti-check"></i> 11 Domains</li></ul>
+            </div>
                         <!-- End Table Head -->
                         <!-- Table List -->
-                        <ul class="table-list">
-                            <li>24x7 Great Support</li>
-                            <li>100% Safe &amp; Secure</li>
-                            <li>No Hidden Charges</li>
-                            <li>One Time Purchase</li>
-                            <li>Unlimited Attachment</li>
-                        </ul>
                         <!-- End Table List -->
                         <!-- Table Bottom -->
                         <div class="button">
@@ -256,27 +247,28 @@
                     </div>
                     <!-- End Single Table-->
                 </div>
-                <div class="col-lg-4 col-md-6 col-12">
+                                <div class="col-lg-4 col-md-6 col-12">
                     <!-- Single Table -->
-                    <div class="single-table wow fadeInUp" data-wow-delay=".4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
+                    <div class="single-table pricingTable" data-plan="Platinum Level">
                         <!-- Table Head -->
                         <div class="table-head">
                             <div class="price">
-                                <p class="amount">$29<span class="duration">/month</span></p>
+              <h3 class="heading">Platinum</h3>
+			   <div class="price">
+                                <p class="amount"><span class="price-value">$200</span></p>
+                            </div>
+              
+              <span class="month">monthly</span>
                             </div>
                             <div class="title">
                                 <h4>Medium Pack</h4>
                             </div>
                         </div>
+	   <div class="pricingContent table-list">
+              <ul><li><i class="ti-check"></i> 500GB Disk Space</li><li><i class="ti-check"></i> 150 Email Accounts</li><li><i class="ti-check"></i> 100 subdomains</li><li><i class="ti-check"></i> 15 Domains</li></ul>
+            </div>
                         <!-- End Table Head -->
                         <!-- Table List -->
-                        <ul class="table-list">
-                            <li>24x7 Great Support</li>
-                            <li>100% Safe &amp; Secure</li>
-                            <li>No Hidden Charges</li>
-                            <li>One Time Purchase</li>
-                            <li>Unlimited Attachment</li>
-                        </ul>
                         <!-- End Table List -->
                         <!-- Table Bottom -->
                         <div class="button">
@@ -286,27 +278,28 @@
                     </div>
                     <!-- End Single Table-->
                 </div>
-                <div class="col-lg-4 col-md-6 col-12">
+                                <div class="col-lg-4 col-md-6 col-12">
                     <!-- Single Table -->
-                    <div class="single-table wow fadeInUp" data-wow-delay=".6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
+                    <div class="single-table pricingTable" data-plan="Diamond Level">
                         <!-- Table Head -->
                         <div class="table-head">
                             <div class="price">
-                                <p class="amount">$59<span class="duration">/month</span></p>
+              <h3 class="heading">Diamond</h3>
+			   <div class="price">
+                                <p class="amount"><span class="price-value">$500</span></p>
+                            </div>
+              
+              <span class="month">monthly</span>
                             </div>
                             <div class="title">
-                                <h4>Extended Pack</h4>
+                                <h4>Large Pack</h4>
                             </div>
                         </div>
+	   <div class="pricingContent table-list">
+              <ul><li><i class="ti-check"></i> 1150GB Disk Space</li><li><i class="ti-check"></i> 250 Email Accounts</li><li><i class="ti-check"></i> 1000 subdomains</li><li><i class="ti-check"></i> 55 Domains</li></ul>
+            </div>
                         <!-- End Table Head -->
                         <!-- Table List -->
-                        <ul class="table-list">
-                            <li>24x7 Great Support</li>
-                            <li>100% Safe &amp; Secure</li>
-                            <li>No Hidden Charges</li>
-                            <li>One Time Purchase</li>
-                            <li>Unlimited Attachment</li>
-                        </ul>
                         <!-- End Table List -->
                         <!-- Table Bottom -->
                         <div class="button">
@@ -322,130 +315,97 @@
     <!--/ End Pricing Table Area -->
 
 
-    <!-- Start Intro Video Area -->
-    <section class="intro-video-area ">
+
+
+
+   <!-- Start Contact Area -->
+    <section id="contact" class="contact-us section">
         <div class="container">
-            <div class="video-inner ">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-12">
-                        <div class="intro-video-play">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10 col-12">
-                                    <div class="play-thumb wow zoomIn" data-wow-delay=".2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
-                                        <a href="https://www.youtube.com/watch?v=r44RKWyfcFw&amp;fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM" class="glightbox video"><i class="lni lni-play"></i></a>
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <span >We Want to Hear From You!</span>
+                        <h2 >Conctact Us</h2>
+                        <p >We try to respond to each request within 24 hours.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-head">
+                <div class="inner-content">
+                    <div class="row">
+                        <div class="col-lg-8 col-12">
+                            <div class="form-main">
+                                <form class="form" method="post" action="assets/mail/mail.php">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <div class="form-group">
+                                                <input name="name" type="text" placeholder="Your Name" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <div class="form-group">
+                                                <input name="subject" type="text" placeholder="Your Subject" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <div class="form-group">
+                                                <input name="email" type="email" placeholder="Your Email" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <div class="form-group">
+                                                <input name="phone" type="text" placeholder="Your Phone" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-group message">
+                                                <textarea name="message" placeholder="Your Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-group button">
+                                                <button type="submit" class="btn ">Send Message</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12">
+                            <div class="contact-info">
+                                <div class="single-head">
+                                    <div class="single-info">
+                                        <i class="lni lni-map-marker"></i>
+                                        <ul>
+                                            <li><span>Location</span></li>
+                                            <li>76/A, Green valle, Califonia <br>United State</li>
+                                        </ul>
+                                    </div>
+                                    <div class="single-info">
+                                        <i class="lni lni-phone"></i>
+                                        <ul>
+                                            <li><span>Call Us</span></li>
+                                            <li><a href="#">+1 756 445 5658</a></li>
+                                            <li><a href="#">+1 125 458 5555</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="single-info">
+                                        <i class="lni lni-envelope"></i>
+                                        <ul>
+                                            <li><span>Mail Us</span></li>
+                                            <li><a href="mailto:support@yourmail.com">support@milesahead.team</a></li>
+                                            <li><a href="mailto:contact@yourmail.com">contact@milesahead.team</a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-12">
-                        <div class="section-title">
-                            <span>Latest Video</span>
-                            <h2>Watch App Video Demo Presentation</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End Intro Video Area -->
-
-    <!-- Start App Screenshort Area -->
-    <section class="app-screenshorts section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <span class="wow fadeInDown" data-wow-delay=".2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">Screenshots</span>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">Simple and Intuitive</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">Easy to use and simple to configure, it just makes sense to start using it right away!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="slider-head">
-                        <div class="tns-outer" id="tns1-ow"><div class="tns-nav" aria-label="Carousel Pagination"><button type="button" data-nav="0" aria-controls="tns1" style="" aria-label="Carousel Page 1 (Current Slide)" class="tns-nav-active"></button><button type="button" data-nav="1" tabindex="-1" aria-controls="tns1" style="" aria-label="Carousel Page 2"></button><button type="button" data-nav="2" tabindex="-1" aria-controls="tns1" style="" aria-label="Carousel Page 3"></button><button type="button" data-nav="3" tabindex="-1" aria-controls="tns1" style="display: none;" aria-label="Carousel Page 4"></button><button type="button" data-nav="4" tabindex="-1" aria-controls="tns1" style="display: none;" aria-label="Carousel Page 5"></button><button type="button" data-nav="5" tabindex="-1" aria-controls="tns1" style="display: none;" aria-label="Carousel Page 6"></button><button type="button" data-nav="6" tabindex="-1" aria-controls="tns1" style="display: none;" aria-label="Carousel Page 7"></button><button type="button" data-nav="7" tabindex="-1" aria-controls="tns1" style="display: none;" aria-label="Carousel Page 8"></button><button type="button" data-nav="8" tabindex="-1" aria-controls="tns1" style="display: none;" aria-label="Carousel Page 9"></button></div><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">7 to 9</span>  of 9</div><div id="tns1-mw" class="tns-ovh"><div class="tns-inner" id="tns1-iw"><div class="tns-outer" id="tns1-ow"><div class="tns-nav" aria-label="Carousel Pagination"><button type="button" data-nav="0" aria-controls="tns1" style="" aria-label="Carousel Page 1 (Current Slide)" class="tns-nav-active"></button><button type="button" data-nav="1" tabindex="-1" aria-controls="tns1" style="" aria-label="Carousel Page 2"></button><button type="button" data-nav="2" tabindex="-1" aria-controls="tns1" style="" aria-label="Carousel Page 3"></button><button type="button" data-nav="3" tabindex="-1" aria-controls="tns1" style="" aria-label="Carousel Page 4"></button><button type="button" data-nav="4" tabindex="-1" aria-controls="tns1" style="" aria-label="Carousel Page 5"></button><button type="button" data-nav="5" tabindex="-1" aria-controls="tns1" style="" aria-label="Carousel Page 6"></button><button type="button" data-nav="6" tabindex="-1" aria-controls="tns1" style="" aria-label="Carousel Page 7"></button><button type="button" data-nav="7" tabindex="-1" aria-controls="tns1" style="display:none" aria-label="Carousel Page 8"></button><button type="button" data-nav="8" tabindex="-1" aria-controls="tns1" style="display:none" aria-label="Carousel Page 9"></button><button type="button" data-nav="9" tabindex="-1" aria-controls="tns1" style="display:none" aria-label="Carousel Page 10"></button><button type="button" data-nav="10" tabindex="-1" aria-controls="tns1" style="display:none" aria-label="Carousel Page 11"></button><button type="button" data-nav="11" tabindex="-1" aria-controls="tns1" style="display:none" aria-label="Carousel Page 12"></button><button type="button" data-nav="12" tabindex="-1" aria-controls="tns1" style="display:none" aria-label="Carousel Page 13"></button><button type="button" data-nav="13" tabindex="-1" aria-controls="tns1" style="display:none" aria-label="Carousel Page 14"></button><button type="button" data-nav="14" tabindex="-1" aria-controls="tns1" style="display:none" aria-label="Carousel Page 15"></button><button type="button" data-nav="15" tabindex="-1" aria-controls="tns1" style="display:none" aria-label="Carousel Page 16"></button><button type="button" data-nav="16" tabindex="-1" aria-controls="tns1" style="display:none" aria-label="Carousel Page 17"></button><button type="button" data-nav="17" tabindex="-1" aria-controls="tns1" style="display:none" aria-label="Carousel Page 18"></button><button type="button" data-nav="18" tabindex="-1" aria-controls="tns1" style="display:none" aria-label="Carousel Page 19"></button><button type="button" data-nav="19" tabindex="-1" aria-controls="tns1" style="display:none" aria-label="Carousel Page 20"></button><button type="button" data-nav="20" tabindex="-1" aria-controls="tns1" style="display:none" aria-label="Carousel Page 21"></button></div><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">5 to 7</span>  of 21</div><div id="tns1-mw" class="tns-ovh"><div class="tns-inner" id="tns1-iw"><div class="screenshort-slider  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" id="tns1" style="transition-duration: 0s; transform: translate3d(-13.7931%, 0px, 0px);"><div class="single-slider tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
-                                <img src="assets/images/phone-ex01.png" alt="#">
-                            </div><div class="single-slider tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
-                                <img src="assets/images/phone-ex02.png" alt="#">
-                            </div><div class="single-slider tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
-                                <img src="assets/images/phone-ex03.png" alt="#">
-                            </div><div class="single-slider tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
-                                <img src="assets/images/phone-ex04.png" alt="#">
-                            </div><div class="single-slider tns-item tns-slide-cloned tns-slide-active" id="tns1-item0">
-                                <img src="assets/images/phone-ex01.png" alt="#">
-                            </div><div class="single-slider tns-item tns-slide-cloned tns-slide-active" id="tns1-item1">
-                                <img src="assets/images/phone-ex02.png" alt="#">
-                            </div><div class="single-slider tns-item tns-slide-cloned tns-slide-active" id="tns1-item2">
-                                <img src="assets/images/phone-ex03.png" alt="#">
-                            </div><div class="single-slider tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1" id="tns1-item3">
-                                <img src="assets/images/phone-ex04.png" alt="#">
-                            </div><div class="single-slider tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1" id="tns1-item4">
-                                <img src="assets/images/phone-ex01.png" alt="#">
-                            </div><div class="single-slider tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1" id="tns1-item5">
-                                <img src="assets/images/phone-ex02.png" alt="#">
-                            </div>
-                            <div class="single-slider tns-item tns-slide-active" id="tns1-item0" aria-hidden="true" tabindex="-1">
-                                <img src="assets/images/phone-ex03.png" alt="#">
-                            </div>
-                            <div class="single-slider tns-item tns-slide-active" id="tns1-item1" aria-hidden="true" tabindex="-1">
-                                <img src="assets/images/phone-ex04.png" alt="#">
-                            </div>
-                            <div class="single-slider tns-item tns-slide-active" id="tns1-item2" aria-hidden="true" tabindex="-1">
-                                <img src="assets/images/phone-ex01.png" alt="#">
-                            </div>
-                            <div class="single-slider tns-item" id="tns1-item3" aria-hidden="true" tabindex="-1">
-                                <img src="assets/images/phone-ex02.png" alt="#">
-                            </div>
-                            <div class="single-slider tns-item" id="tns1-item4" aria-hidden="true" tabindex="-1">
-                                <img src="assets/images/phone-ex03.png" alt="#">
-                            </div>
-                            <div class="single-slider tns-item" id="tns1-item5" aria-hidden="true" tabindex="-1">
-                                <img src="assets/images/phone-ex04.png" alt="#">
-                            </div>
-                            <div class="single-slider tns-item" id="tns1-item6" aria-hidden="true" tabindex="-1">
-                                <img src="assets/images/phone-ex01.png" alt="#">
-                            </div>
-                            <div class="single-slider tns-item" id="tns1-item7" aria-hidden="true" tabindex="-1">
-                                <img src="assets/images/phone-ex02.png" alt="#">
-                            </div>
-                            <div class="single-slider tns-item" id="tns1-item8" aria-hidden="true" tabindex="-1">
-                                <img src="assets/images/phone-ex03.png" alt="#">
-                            </div>
-                        <div class="single-slider tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1" id="tns1-item15">
-                                <img src="assets/images/phone-ex04.png" alt="#">
-                            </div><div class="single-slider tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1" id="tns1-item16">
-                                <img src="assets/images/phone-ex01.png" alt="#">
-                            </div><div class="single-slider tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1" id="tns1-item17">
-                                <img src="assets/images/phone-ex02.png" alt="#">
-                            </div><div class="single-slider tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1" id="tns1-item18">
-                                <img src="assets/images/phone-ex03.png" alt="#">
-                            </div><div class="single-slider tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1" id="tns1-item19">
-                                <img src="assets/images/phone-ex04.png" alt="#">
-                            </div><div class="single-slider tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1" id="tns1-item20">
-                                <img src="assets/images/phone-ex01.png" alt="#">
-                            </div><div class="single-slider tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
-                                <img src="assets/images/phone-ex02.png" alt="#">
-                            </div><div class="single-slider tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
-                                <img src="assets/images/phone-ex03.png" alt="#">
-                            </div><div class="single-slider tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
-                                <img src="assets/images/phone-ex04.png" alt="#">
-                            </div><div class="single-slider tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
-                                <img src="assets/images/phone-ex01.png" alt="#">
-                            </div></div></div></div></div></div></div></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End App Screenshort Area -->
-
+    <!--/ End Contact Area -->
 
     <!-- Start Footer Area -->
     <footer class="footer">
@@ -458,7 +418,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="left">
-                                Copyright 2024 © All Rights Riserved
+                                Copyright 2024 © All Rights Reserved
                             </div>
                         </div>
                     </div>
@@ -467,38 +427,52 @@
         </div>
         <!-- End Footer Middle -->
     </footer>
-    <!--/ End Footer Area -->
+    <!--/ End Footer Area -->	
 
     <!-- ========================= scroll-top ========================= -->
     <a href="#" class="scroll-top btn-hover">
         <i class="lni lni-chevron-up"></i>
     </a>
+{% include /sub/javascript.html %} 
 
-<!-- ========================= JS here ========================= -->
-<script src="../assets/js/bootstrap.min.js"></script>
-<script src="../assets/js/count-up.min.js"></script>
-<script src="../assets/js/wow.min.js"></script>
-<script src="../assets/js/tiny-slider.js"></script>
-<script src="../assets/js/glightbox.min.js"></script>
-<script src="../assets/js/imagesloaded.min.js"></script>
-<script src="../assets/js/isotope.min.js"></script>
-<script src="../assets/js/main.js"></script>
-<script type="text/javascript">
-//========= glightbox
-GLightbox({
-    'href': 'https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM',
-    'type': 'video',
-    'source': 'youtube', //vimeo, youtube or local
-    'width': 900,
-    'autoplayVideos': true,
+
+<script>
+let checkInterval;
+// Function to update pricing tables
+function updatePricingTables(products) {
+products.forEach(product => {
+// Find the corresponding pricing table based on the product name
+const pricingTable = document.querySelector(`.pricingTable[data-plan="${product.name}"]`);
+
+if (pricingTable) {
+// Update price (assuming price is retrieved from default_price or set statically for simplicity)
+pricingTable.querySelector('.price-value').textContent = "$" + product.defaultPrice; // Modify as needed to extract the price
+
+// Update features
+const featuresList = pricingTable.querySelector('.pricingContent ul');
+featuresList.innerHTML = ''; // Clear existing features
+
+product.marketing_features.forEach(feature => {
+    const listItem = document.createElement('li');
+    listItem.innerHTML = `<i class="ti-check"></i> ${feature.name}`;
+    featuresList.appendChild(listItem);
+});
+}
+});
+}
+
+// Function to check if userdata is loaded
+function checkAndLoadUserData() {
+if (typeof userdata !== 'undefined' && userdata.allproducts && userdata.allproducts.data) {
+// Data is available, update pricing tables and clear the interval
+updatePricingTables(userdata.allproducts.data);
+clearInterval(checkInterval);
+}
+}
+
+// Wait for the page to fully load
+window.addEventListener('load', () => {
+// Start checking every 500ms if userdata is loaded
+const checkInterval = setInterval(checkAndLoadUserData, 500);
 });
 </script>
-
-<!-- okta -->
-<script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
-<script src="js/ui.js"></script>
-<script src="js/app.js"></script>
-	
-</body>
-
-</html>

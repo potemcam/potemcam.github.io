@@ -36,7 +36,7 @@ input[type="text"], input[type="file"], textarea {
     font-size: 16px;
 }
 button {
-    background-color: #0E6EE9;
+    background-color: #009688;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -45,7 +45,7 @@ button {
     font-size: 16px;
 }
 button:hover {
-    background-color: #248AF4;
+    background-color: #00796b;
 }
 .response {
     margin-top: 10px;

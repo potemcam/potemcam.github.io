@@ -1,146 +1,34 @@
 
-    <!-- Preloader -->
-    <div class="preloader" style="opacity: 0; display: none;">
-        <div class="preloader-inner">
-            <div class="preloader-icon">
-                <span></span>
-                <span></span>
-            </div>
-        </div>
+<!-- Minimal Nav Preloader -->
+<div class="preloader" style="opacity: 0; display: none;">
+<div class="preloader-inner">
+    <div class="preloader-icon">
+	<span></span>
+	<span></span>
     </div>
-    <!-- /End Preloader -->
+</div>
+</div>
+<!-- /End Preloader -->
 
-    <!-- Start Header Area -->
-    <header class="header style2">
-        <div class="navbar-area">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-12">
+<!-- Start Header Area -->
+<header class="header style2">
+<div class="navbar-area">
+    <div class="container">
+	<div class="row align-items-center">
+	    <div class="col-lg-12">
+<!-- navbar -->
 
-<nav class="navbar navbar-expand-lg  wow fadeInUp" data-wow-delay=".3s">
-   <a class="navbar-brand logo" href="index.html">
-      <!--img class="primary-logo" src="../assets/images/logo/white-logo.svg" alt="Logo" /-->
-      <!--img class="alt-logo" src="../assets/images/logo/logo2.svg" alt="Logo" /-->
-   </a>
-   <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-      aria-expanded="false" aria-label="Toggle navigation">
-   <span class="toggler-icon"></span>
-   <span class="toggler-icon"></span>
-   <span class="toggler-icon"></span>
-   </button>
-   <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
-      <ul id="nav" class="navbar-nav me-auto">
-
-
-                <li class="nav-item dropdown auth-visible hidden">
-                  <a
-                    class="nav-link"
-                    href="#"
-                    id="profileDropDown"
-                    data-toggle="dropdown"
-                  >
-                    <!-- Profile image should be set to the profile picture from the id token -->
-                    <img
-                      alt="Profile picture"
-                      class="nav-user-profile profile-image rounded-circle"
-                      width="30"
-                    />
-                  </a>
-                  <div class="dropdown-menu">
-                    <!-- Show the user's full name from the id token here -->
-                    <div class="dropdown-header nav-user-name user-name"></div>
-                    <a
-                      href="/profile"
-                      class="dropdown-item dropdown-profile route-link"
-                    >
-                      <i class="fas fa-user mr-3"></i> Profile
-                    </a>
-                    <a
-                      href="#"
-                      class="dropdown-item"
-                      id="qsLogoutBtn"
-                      onclick="logout()"
-                    >
-                      <i class="fas fa-power-off mr-3"></i> Log out
-                    </a>
-                  </div>
-                </li>
-
-
-
-         
-         <li class="nav-item wow">
-            <a href="#" class="auth-invisible hidden">&nbsp;</a>
-            <a href="/apps/opportunities/app2.html"  class="auth-visible">Opportunity Builder</a>
-         </li>
-         <li class="nav-item wow">
-            <a href="#" class="auth-invisible hidden"></a>
-            <a href="/apps/opportunities-notifications/app2.html" class="auth-visible">Email Alerts</a>
-         </li>
-         <!--li class="nav-item">
-            <a href="/applications.html" class="auth-visible">Applications</a>
-            </li -->
-         <li class="nav-item wow" >
-            <a href="#" class="auth-invisible hidden"></a>
-            <a href="/chatbot-admin.html"  class="auth-visible">Chatbot Training</a>
-         </li>
-         <li class="nav-item">
-            <a href="/index.html" class="auth-invisible hidden">Home</a>
-            <a href="/applications.html" class="auth-visible">Apps</a>
-         </li>
-         <li class="nav-item">
-            <a href="/chatbot.html" >Contact</a>
-         </li>
-         <li class="nav-item">
-            <a href="#" id="qsLoginBtn" onclick="login()" class="auth-invisible hidden">Log in</a>
-            <a href="#" id="qsLogoutBtn" class="auth-visible" onclick="logout()">Log out</a>
-
-
-        <div class="page hidden" id="content-profile">
-          <div class="container">
-            <div class="row align-items-center profile-header">
-              <div class="col-md-2">
-                <img
-                  alt="User's profile picture"
-                  class="rounded-circle img-fluid profile-image mb-3 mb-md-0"
-                />
-              </div>
-              <div class="col-md">
-                <h2 class="user-name"></h2>
-                <p class="lead text-muted user-email"></p>
-              </div>
-            </div>
-
-            <div class="row">
-              <pre class="rounded">
-                <code id="profile-data" class="json"></code></pre>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-                 
-         </li>
-      </ul>
-   </div>
-   <!-- navbar collapse -->
-</nav>
-
-    
+{% include nav-tag.html %}
 
 <!-- navbar -->
-                    </div>
-                </div>
-                <!-- row -->
-            </div>
-            <!-- container -->
-        </div>
-        <!-- navbar area -->
-    </header>
-    <!-- End Header Area -->
+	    </div>
+	</div>
+	<!-- row -->
+    </div>
+    <!-- container -->
+</div>
+<!-- navbar area -->
+</header>
+<!-- End Header Area -->
 	
 	
- 

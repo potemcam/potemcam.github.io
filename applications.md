@@ -2,6 +2,13 @@
 layout: minimal
 title:  "Applications Dashboard"
 blurb: "Welcome to the applications dashboard."
+
+enterprise: true
+company-subscription: true
+control-panel: true
+authenticated: true
+
+
 ---
 
 <section id="testimonials" class="section testimonials style2">
@@ -18,21 +25,47 @@ blurb: "Welcome to the applications dashboard."
             <div class="row">
                 
 {% for page in site.pages %}
-  {% if page.path contains 'apps/' %}
+ {% if page.path contains 'apps/' and page.control-panel != true %}
   <div class="col-lg-4 col-md-6 col-12">
   
 			  <div class="single-testimonial">
 				<div class="top-section">
-					<i class="lni lni-ux"></i>
-					<h3><a href="{{ page.url }}">{{ page.title }}</a>
-						
-						<span><a href="{{ page.url }}">Get Started!</a></span>
-					</h3>
-				</div>
-				<p>{{ page.blurb }}</p>
-			</div>
+{% assign show_default_icon = true %}
 
-				 </div>
+{% if page.authenticated %}
+    <i class="lni lni-lock" title="Authentication Required"></i>
+    {% assign show_default_icon = false %}
+{% endif %}
+
+
+{% if page.control-panel %}
+    <i class="lni lni-cog" title="Control Panel"></i>
+    {% assign show_default_icon = false %}
+{% endif %}
+
+{% if page.subscription-product %}
+    <i class="lni lni-user" title="Personal Subscription Required"></i>
+    {% assign show_default_icon = false %}
+{% endif %}
+
+{% if page.corporate-subscription %}
+    <i class="lni lni-network" title="Corporate Subscription Required"></i>
+    {% assign show_default_icon = false %}
+{% endif %}
+
+{% if page.enterprise %}
+    <i class="lni lni-apartment" title="Enterprise Access Required"></i>
+    {% assign show_default_icon = false %}
+{% endif %}
+
+{% if show_default_icon %}
+    <i class="lni lni-world" title="All Access"></i>
+{% endif %}
+	<h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+	</div>
+	<p>{{ page.blurb }}</p>
+	</div>
+</div>
   {% endif %}
 {% endfor %}
                
