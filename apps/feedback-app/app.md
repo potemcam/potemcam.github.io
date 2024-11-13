@@ -90,7 +90,7 @@ priority: 4
 
 <div>
 <div id="form-container" class="container hidden">
-    <h1>Create New Ticket</h1>
+    <h1>Please Provide Feedback</h1>
     <form id="ticketForm" 
     action="https://api.milesahead.team/api/jira/issue"
     method="POST">
