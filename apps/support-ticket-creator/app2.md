@@ -1,8 +1,10 @@
 ---
 layout: minimal-app
 title:  "Service Ticket"
-blurb: "File a service ticket."
+icon: "sell"
 
+blurb: "File a service ticket."
+access: "external-user"
 authenticated: true
 # subscription-product: enterprise
 # subscription-link-name: enterprise-subscription-link
@@ -16,17 +18,13 @@ priority: 4
   .containerx {
       width: 100%;
       max-width: 600px;
-      margin: 0 auto;
       padding: 20px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       border-radius: 8px;
       font-size: 16px;
+      margin:10px;
   }
-  .h1x {
-      font-size: 24px;
-      color: #333;
-      text-align: center;
-  }
+
   label {
       display: block;
       margin: 15px 0 5px;
@@ -70,19 +68,24 @@ priority: 4
   .priority-button.active {
       outline: 2px solid #333;
   }
+  .center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
   .submit-button {
-      display: block;
-      width: 100%;
-      padding: 12px;
-      margin-top: 20px;
-      background-color: #ff9f42;
-      color: white;
-      font-size: 16px;
-      font-weight: bold;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-  }
+  background-color: #F8921D;
+  /* Replace with your primary color */
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  width:30%;
+  align-self: center;
+  
+}
   .hidden {
     display: none;
   }
@@ -90,10 +93,12 @@ priority: 4
 
 <div>
 <div id="form-container" class="container hidden">
-    <h1>Create New Ticket</h1>
+    <h4>Create New Ticket</h4>
     <form id="ticketForm" 
     action="https://api.milesahead.team/api/jira/issue"
-    method="POST">
+    method="POST"
+    class="column"
+    >
         <label for="title">Support Ticket Title *</label>
         <input type="text" id="title" name="summary" placeholder="Enter a brief title for the issue (e.g., Payroll processing error, Login failure)" required>
 
@@ -115,7 +120,7 @@ priority: 4
         <label for="description">Description of Issue *</label>
         <textarea id="description" name="issueDescription" placeholder="Enter the description of the issue" rows="5" required></textarea>
 
-        <button type="submit" class="submit-button">SUBMIT</button>
+        <button type="submit" class="submit-button center">SUBMIT</button>
     </form>
 </div>
     <span id="feedback-loading">Loading</span>
