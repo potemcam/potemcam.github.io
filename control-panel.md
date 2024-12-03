@@ -329,8 +329,8 @@ width: 45%;
                 </div>
             </div>
         </div>
-    </section>
-    <!--/ End Pricing Table Area -->
+</section>
+<!--/ End Pricing Table Area -->
 
 
 
